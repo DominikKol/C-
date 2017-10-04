@@ -1,0 +1,8 @@
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\bin\Debug\WyscigiWatkow.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\obj\Debug\WyscigiWatkow.Form1.resources
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\obj\Debug\WyscigiWatkow.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\obj\Debug\WyscigiWatkow.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\bin\Debug\WyscigiWatkow.exe
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\bin\Debug\WyscigiWatkow.pdb
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\obj\Debug\WyscigiWatkow.exe
+c:\users\boa\documents\visual studio 2015\Projects\WyscigiWatkow\WyscigiWatkow\obj\Debug\WyscigiWatkow.pdb

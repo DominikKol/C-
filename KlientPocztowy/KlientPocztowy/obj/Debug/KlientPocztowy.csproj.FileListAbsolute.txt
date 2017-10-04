@@ -1,0 +1,7 @@
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\bin\Debug\KlientPocztowy.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\bin\Debug\KlientPocztowy.exe
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\bin\Debug\KlientPocztowy.pdb
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\obj\Debug\KlientPocztowy.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\obj\Debug\KlientPocztowy.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\obj\Debug\KlientPocztowy.exe
+c:\users\boa\documents\visual studio 2015\Projects\KlientPocztowy\KlientPocztowy\obj\Debug\KlientPocztowy.pdb

@@ -1,0 +1,8 @@
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\bin\Debug\SkanerPortow.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\obj\Debug\SkanerPortow.csprojResolveAssemblyReference.cache
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\obj\Debug\SkanerPortow.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\obj\Debug\SkanerPortow.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\bin\Debug\SkanerPortow.exe
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\bin\Debug\SkanerPortow.pdb
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\obj\Debug\SkanerPortow.exe
+c:\users\boa\documents\visual studio 2015\Projects\SkanerPortow\SkanerPortow\obj\Debug\SkanerPortow.pdb

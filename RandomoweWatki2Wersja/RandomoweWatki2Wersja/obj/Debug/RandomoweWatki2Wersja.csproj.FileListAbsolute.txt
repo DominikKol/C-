@@ -1,0 +1,7 @@
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\bin\Debug\RandomoweWatki2Wersja.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\bin\Debug\RandomoweWatki2Wersja.exe
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\bin\Debug\RandomoweWatki2Wersja.pdb
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\obj\Debug\RandomoweWatki2Wersja.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\obj\Debug\RandomoweWatki2Wersja.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\obj\Debug\RandomoweWatki2Wersja.exe
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweWatki2Wersja\RandomoweWatki2Wersja\obj\Debug\RandomoweWatki2Wersja.pdb

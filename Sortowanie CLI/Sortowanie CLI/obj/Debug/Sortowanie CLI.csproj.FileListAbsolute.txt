@@ -1,0 +1,5 @@
+c:\users\boa\documents\visual studio 2015\Projects\Sortowanie CLI\Sortowanie CLI\bin\Debug\Sortowanie CLI.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\Sortowanie CLI\Sortowanie CLI\bin\Debug\Sortowanie CLI.exe
+c:\users\boa\documents\visual studio 2015\Projects\Sortowanie CLI\Sortowanie CLI\bin\Debug\Sortowanie CLI.pdb
+c:\users\boa\documents\visual studio 2015\Projects\Sortowanie CLI\Sortowanie CLI\obj\Debug\Sortowanie CLI.exe
+c:\users\boa\documents\visual studio 2015\Projects\Sortowanie CLI\Sortowanie CLI\obj\Debug\Sortowanie CLI.pdb

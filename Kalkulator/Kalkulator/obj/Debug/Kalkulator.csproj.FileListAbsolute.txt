@@ -1,0 +1,8 @@
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojResolveAssemblyReference.cache
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+c:\users\boa\documents\visual studio 2015\Projects\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb

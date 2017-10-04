@@ -1,0 +1,8 @@
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\bin\Debug\KonwersjaCaleCentymetry.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\bin\Debug\KonwersjaCaleCentymetry.exe
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\bin\Debug\KonwersjaCaleCentymetry.pdb
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\obj\Debug\KonwersjaCaleCentymetry.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\obj\Debug\KonwersjaCaleCentymetry.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\obj\Debug\KonwersjaCaleCentymetry.exe
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\obj\Debug\KonwersjaCaleCentymetry.pdb
+c:\users\boa\documents\visual studio 2015\Projects\KonwersjaCaleCentymetry\KonwersjaCaleCentymetry\obj\Debug\KonwersjaCaleCentymetry.Form1.resources

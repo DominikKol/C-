@@ -1,0 +1,31 @@
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\x64\Release\MassMeil.exe.config
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\x64\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\x64\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.EdytorBazyDanych.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.Form1.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.Properties.Resources.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.SkanerPortow.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.csproj.GenerateResource.Cache
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x64\Release\MassMeil.csprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\bin\x64\Release\MassMeil.exe.config
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\bin\x64\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\bin\x64\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.csprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.EdytorBazyDanych.resources
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.Form1.resources
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.Properties.Resources.resources
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.SkanerPortow.resources
+C:\Users\Dominik\Desktop\Dominik - Koliński  K22 MassMeil\MassMeil\obj\x64\Release\MassMeil.csproj.GenerateResource.Cache
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\bin\x64\Release\MassMeil.exe.config
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.exe
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.pdb
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.csprojResolveAssemblyReference.cache
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.EdytorBazyDanych.resources
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.Form1.resources
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.Properties.Resources.resources
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.SkanerPortow.resources
+C:\Users\boa\Documents\Visual Studio 2015\Projects\MassMail\MassMeil\obj\x64\Release\MassMeil.csproj.GenerateResource.Cache

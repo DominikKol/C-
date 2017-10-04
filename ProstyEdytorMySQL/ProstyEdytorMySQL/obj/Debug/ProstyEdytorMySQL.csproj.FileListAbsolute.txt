@@ -1,0 +1,3 @@
+c:\users\boa\documents\visual studio 2015\Projects\ProstyEdytorMySQL\ProstyEdytorMySQL\bin\Debug\ProstyEdytorMySQL.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\ProstyEdytorMySQL\ProstyEdytorMySQL\obj\Debug\ProstyEdytorMySQL.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\ProstyEdytorMySQL\ProstyEdytorMySQL\obj\Debug\ProstyEdytorMySQL.csproj.GenerateResource.Cache

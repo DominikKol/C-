@@ -1,0 +1,30 @@
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\bin\Release\MassMeil.exe.config
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\bin\Release\MassMeil.exe
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\bin\Release\MassMeil.pdb
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\obj\Release\MassMeil.Form1.resources
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\obj\Release\MassMeil.Properties.Resources.resources
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\obj\Release\MassMeil.csproj.GenerateResource.Cache
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\obj\Release\MassMeil.exe
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\obj\Release\MassMeil.pdb
+C:\Users\Dominik\Documents\Visual Studio 2012\Projects\MassMeil\MassMeil\obj\Release\MassMeil.csprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\Release\MassMeil.exe.config
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.csprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.Form1.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.Properties.Resources.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.csproj.GenerateResource.Cache
+C:\Users\Dominik\Desktop\Pulpit\MassMeil\MassMeil\bin\Release\MassMeil.exe.config
+C:\Users\Dominik\Desktop\Pulpit\MassMeil\MassMeil\obj\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\Pulpit\MassMeil\MassMeil\obj\Release\MassMeil.pdb
+F:\Pulpit\Dominik\MassMeil\MassMeil\bin\Release\MassMeil.exe.config
+F:\Pulpit\Dominik\MassMeil\MassMeil\obj\Release\MassMeil.exe
+F:\Pulpit\Dominik\MassMeil\MassMeil\obj\Release\MassMeil.pdb
+F:\Pulpit\Dominik\MassMeil\MassMeil\obj\Release\MassMeil.csprojResolveAssemblyReference.cache
+F:\Pulpit\Dominik\MassMeil\MassMeil\obj\Release\MassMeil.Form1.resources
+F:\Pulpit\Dominik\MassMeil\MassMeil\obj\Release\MassMeil.Properties.Resources.resources
+F:\Pulpit\Dominik\MassMeil\MassMeil\obj\Release\MassMeil.csproj.GenerateResource.Cache
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.EdytorBazyDanych.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\Release\MassMeil.SkanerPortow.resources

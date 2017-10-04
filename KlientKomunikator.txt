@@ -1,0 +1,125 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
+using System.IO;
+using komunikatyClientServer;
+
+namespace Klient
+{
+    public partial class Klient : Form
+    {
+        private TcpClient klient = null;
+        private bool czypolaczono = false;
+        private BinaryReader reader = null;
+        private BinaryWriter writer = null;
+        
+        public Klient()
+        {
+            InitializeComponent();
+        }
+
+        public void MetodaWyswietl(RichTextBox zmienna, string tekst)
+        {
+            zmienna.Focus();
+            zmienna.AppendText(tekst);
+            zmienna.ScrollToCaret();
+            richTextBox2.Focus();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            klient = new TcpClient();
+            MetodaWyswietl(richTextBox3, "Próbuje siê po³¹czyæ\n");
+            klient.Connect(IPAddress.Parse(HostTb.Text), (int)Port.Value);
+            MetodaWyswietl(richTextBox3, "Po³¹czenie nawi¹zane\n¯¹dam zezwolenia\n");
+            NetworkStream stream = klient.GetStream();
+            writer = new BinaryWriter(stream);
+            reader = new BinaryReader(stream);
+            writer.Write(KomunikatyKlienta.Zadaj);
+            if (reader.ReadString() == KomunikatySerwera.OK)
+            {
+                MetodaWyswietl(richTextBox3,"Po³¹czono\n");
+                czypolaczono = true;
+                Wyslijbutton.Enabled = true;
+                backgroundWorker2.RunWorkerAsync();
+            }
+            else
+            {
+                MetodaWyswietl(richTextBox3, "Brak odpowiedzi\nRozlaczono\n");
+                czypolaczono = false;
+                if (klient != null) klient.Close();
+                Wyslijbutton.Enabled = false;
+                PolaczButton.Text = "Po³¹cz";
+            }
+        }
+
+        private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
+        {
+            string tekst;
+            while ((tekst = reader.ReadString()) != KomunikatySerwera.Rozlacz)
+            {
+                MetodaWyswietl(richTextBox1, "===== Rozmówca =====\n" + tekst + '\n');
+            }
+            Wyslijbutton.Enabled = false;
+            MetodaWyswietl(richTextBox3, "Rozlaczono\n");
+            PolaczButton.Text = "Po³¹cz";
+            czypolaczono = false;
+            if (klient != null) klient.Close();
+        }
+
+        private void WyslijBt_Click(object sender, EventArgs e)
+        {
+            string tekst = richTextBox2.Text;
+            if (tekst == "") { richTextBox2.Focus(); return; }
+            if (tekst[tekst.Length - 1] == '\n')
+                tekst = tekst.TrimEnd('\n');
+            writer.Write(tekst);
+            MetodaWyswietl(richTextBox1, "===== Ja =====\n" + tekst + '\n');
+            richTextBox2.Text = "";
+        }
+
+        private void richTextBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Wyslijbutton.Enabled && e.KeyChar == (char)13) WyslijBt_Click(sender, e);
+        }
+
+        private void PolaczBt_Click(object sender, EventArgs e)
+        {
+            if (PolaczButton.Text == "Po³¹cz")
+            {
+                backgroundWorker1.RunWorkerAsync();
+                PolaczButton.Text = "Roz³¹cz";
+            }
+            else
+            {
+                if (czypolaczono)
+                {
+                    writer.Write(KomunikatyKlienta.Rozlacz);
+                    klient.Close();
+                    czypolaczono = false;
+                }
+                PolaczButton.Text = "Po³¹cz";
+                Wyslijbutton.Enabled = false;
+                MetodaWyswietl(richTextBox3, "Rozlaczono\n");
+            }
+        }
+
+        private void Klient_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (czypolaczono)
+            {
+                writer.Write(KomunikatyKlienta.Rozlacz);
+                klient.Close();
+                czypolaczono = false;
+            }
+            backgroundWorker1.CancelAsync();
+            backgroundWorker2.CancelAsync();
+        }
+    }
+}

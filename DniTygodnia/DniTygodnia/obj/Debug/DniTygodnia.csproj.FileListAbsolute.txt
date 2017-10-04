@@ -1,0 +1,7 @@
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\bin\Debug\DniTygodnia.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\obj\Debug\DniTygodnia.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\obj\Debug\DniTygodnia.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\bin\Debug\DniTygodnia.exe
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\bin\Debug\DniTygodnia.pdb
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\obj\Debug\DniTygodnia.exe
+c:\users\boa\documents\visual studio 2015\Projects\DniTygodnia\DniTygodnia\obj\Debug\DniTygodnia.pdb

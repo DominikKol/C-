@@ -1,0 +1,11 @@
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\x86\Release\MassMeil.exe.config
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\x86\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\bin\x86\Release\MassMeil.pdb
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.csprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.EdytorBazyDanych.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.Form1.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.Properties.Resources.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.SkanerPortow.resources
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.csproj.GenerateResource.Cache
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.exe
+C:\Users\Dominik\Desktop\MassMeil\MassMeil\obj\x86\Release\MassMeil.pdb

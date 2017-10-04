@@ -1,0 +1,152 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
+using System.IO;
+using komunikatyClientServer;
+
+namespace Serwer
+{
+    public partial class Form1 : Form
+    {
+        private TcpListener serwer = null;
+        private TcpClient klient = null;
+        private bool czypolaczono = false;
+        private BinaryReader reader = null;
+        private BinaryWriter writer = null;
+        private string adresIP = "127.0.0.1";
+        
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        public void MetodaWyswietl(RichTextBox zmienna, string tekst)
+        {
+            zmienna.Focus();
+            zmienna.AppendText(tekst);
+            zmienna.ScrollToCaret();
+            richTextBox2.Focus();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            IPAddress serwerIP;
+            try
+            {
+                serwerIP = IPAddress.Parse(adresIP);
+            }
+            catch
+            {
+                MessageBox.Show("B³edny adres IP");
+                czypolaczono = false;
+                return;
+            }
+            MetodaWyswietl(this.richTextBox3, "Czekam na po³aczenie z klientem\n");
+            serwer = new TcpListener(serwerIP, (int)numericUpDown1.Value);
+            serwer.Start();
+            while (!serwer.Pending())
+            {
+                if (this.backgroundWorker1.CancellationPending)
+                {
+                    if (klient != null) klient.Close();
+                    serwer.Stop();
+                    czypolaczono = false;
+                    button1.Text = "Czekaj na po³¹czenie z klientem";
+                    return;
+                }
+            }
+            klient = serwer.AcceptTcpClient();
+            MetodaWyswietl(richTextBox3, "Za¿¹dano po³¹czenia\n");
+            NetworkStream stream = klient.GetStream();
+            writer = new BinaryWriter(stream);
+            reader = new BinaryReader(stream);
+            if (reader.ReadString() == KommunikatyKlienta.Zadaj)
+            {
+                writer.Write(KomunikatySerwera.OK);
+                MetodaWyswietl(richTextBox3, "Po³¹czono z klientem\n");
+                czypolaczono = true;
+                button2.Enabled = true;
+                backgroundWorker2.RunWorkerAsync();
+            }
+            else
+            {
+                MetodaWyswietl(richTextBox3, "Klient odrzucony\nRozlaczono\n");
+                if (klient != null) klient.Close();
+                serwer.Stop();
+                czypolaczono = false;
+            }
+        }
+
+        private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
+        {
+            string tekst;
+            while ((tekst = reader.ReadString()) != KommunikatyKlienta.Rozlacz)
+                MetodaWyswietl(richTextBox1, "===== Rozmówca =====\n" + tekst + '\n');
+            MetodaWyswietl(richTextBox3, "Rozlaczono\n");
+            czypolaczono = false;
+            klient.Close();
+            serwer.Stop();
+            button1.Text = "Czekaj na po³¹czenie z klientem";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string tekst = richTextBox2.Text;
+            if (tekst == "") { richTextBox2.Focus(); return; }
+            if (tekst[tekst.Length - 1] == '\n')
+                tekst = tekst.TrimEnd('\n');
+            writer.Write(tekst);
+            MetodaWyswietl(richTextBox1, "===== Ja =====\n" + tekst + '\n');
+            richTextBox2.Text = "";
+        }
+
+        private void richTextBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (button2.Enabled && e.KeyChar == (char)13) button2_Click(sender, e);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (button1.Text == "Czekaj na po³¹czenie z klientem")
+            {
+                backgroundWorker1.RunWorkerAsync();
+                button1.Text = "Roz³¹cz";
+            }
+            else
+            {
+                if (czypolaczono)
+                {
+                    writer.Write(KomunikatySerwera.Rozlacz);
+                    serwer.Stop();
+                    if (klient != null) klient.Close();
+                    czypolaczono = false;
+                }
+                MetodaWyswietl(richTextBox3, "Rozlaczono\n");
+                button2.Enabled = false;
+                button1.Text = "Czekaj na po³¹czenie";
+                button2.Enabled = false;
+                backgroundWorker1.CancelAsync();
+                backgroundWorker2.CancelAsync();
+            }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (czypolaczono)
+            {
+                writer.Write(KomunikatySerwera.Rozlacz);
+                serwer.Stop();
+                if (klient != null) klient.Close();
+                czypolaczono = false;
+            }
+            backgroundWorker1.CancelAsync();
+            backgroundWorker2.CancelAsync();
+        }
+    }
+}

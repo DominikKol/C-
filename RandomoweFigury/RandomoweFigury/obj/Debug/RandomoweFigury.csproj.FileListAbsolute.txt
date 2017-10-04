@@ -1,0 +1,7 @@
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\bin\Debug\RandomoweFigury.exe.config
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\bin\Debug\RandomoweFigury.exe
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\bin\Debug\RandomoweFigury.pdb
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\obj\Debug\RandomoweFigury.Properties.Resources.resources
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\obj\Debug\RandomoweFigury.csproj.GenerateResource.Cache
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\obj\Debug\RandomoweFigury.exe
+c:\users\boa\documents\visual studio 2015\Projects\RandomoweFigury\RandomoweFigury\obj\Debug\RandomoweFigury.pdb
